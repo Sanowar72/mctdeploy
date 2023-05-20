@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
     @GetMapping(value = "/home")
     public String home(){
-        return "this is mct home deploy....";
+        return "this is mct home deploy.... latest";
     }
 
 }
